@@ -12,6 +12,7 @@
 }
 
 .card-container {
+    
     background-color: greenyellow;
     display: flex;
     justify-content: center;
@@ -19,13 +20,64 @@
     flex-wrap: wrap;
 }
 
-.colonna{
+.card {
+    position: relative;
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+
+.like a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.35s ease-out;
+    animation-name: test;
+    animation-direction: reverse;
+    color: red;
+}
+
+@keyframes test {
+    100% {
+        color: aqua;
+    }
+}
+
+.like {
+    
+    user-select: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+}
+
+.like span a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.card {
-    background-color: blue;
-    width: 200px;
-    height: 300px;
-    margin: 10px;
+.discount {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    
+    width: 30px;
+    height: 20px;
+    background-color: red;
+}
+
+.marker {
+    position: absolute;
+    left: 55px;
+    bottom: 20px;
+    
+    width: 60px;
+    height: 20px;
+    background-color: yellow;
 }
