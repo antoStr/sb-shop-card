@@ -22,29 +22,24 @@
 
 .card {
     position: relative;
-    background-color: blue;
+    background-size: cover;
+    margin: 10px;
     width: 400px;
     height: 500px;
-    margin: 10px;
+}
+
+.first-card {
+  background-image: url(../img/1.webp);
 }
 
 .like a:hover {
     text-decoration: none;
     cursor: pointer;
     transition: 0.35s ease-out;
-    animation-name: test;
-    animation-direction: reverse;
     color: red;
 }
 
-@keyframes test {
-    100% {
-        color: aqua;
-    }
-}
-
 .like {
-    
     user-select: none;
     position: absolute;
     top: 40px;
@@ -66,18 +61,14 @@
     position: absolute;
     left: 20px;
     bottom: 20px;
-    
-    width: 30px;
-    height: 20px;
     background-color: red;
+    padding: 3px;
 }
 
 .marker {
     position: absolute;
     left: 55px;
     bottom: 20px;
-    
-    width: 60px;
-    height: 20px;
     background-color: yellow;
+    padding: 3px;
 }
