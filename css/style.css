@@ -12,7 +12,6 @@
 }
 
 .card-container {
-    
     background-color: greenyellow;
     display: flex;
     justify-content: center;
@@ -21,12 +20,37 @@
 }
 
 .card {
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
     background-size: cover;
+    justify-content: space-between;
     background-position: center;
     margin: 10px;
     width: 300px;
     height: 600px;
+}
+
+.feature {
+    color: #fff ;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.discount,
+.marker {
+    padding: 4px 8px;
+    margin-right: 5px;
+}
+
+.discount {
+    background-color: red;
+}
+
+.marker {
+    background-color: green;
 }
 
 .first-card {
@@ -41,22 +65,26 @@
 }
 
 .like {
+    display: flex;
     user-select: none;
-    position: absolute;
-    top: 40px;
-    right: 0;
+    order: 3;
+    align-self: flex-start;
     background-color: white;
+    margin-top: 40px;
 }
 
 .like span a{
+    color: black;
     text-decoration: none;
-    padding: 10px;
-    font-size: 40px;
+    padding: 5px 13px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+
+/*
 
 .discount {
     position: absolute;
@@ -73,3 +101,5 @@
     background-color: yellow;
     padding: 3px;
 }
+
+*/
