@@ -11,6 +11,8 @@
   background-color: tomato;
 }
 
+/* main container */
+
 .card-container {
     background-color: greenyellow;
     display: flex;
@@ -30,6 +32,8 @@
     width: 300px;
     height: 600px;
 }
+
+/* feature */
 
 .feature {
     color: #fff ;
@@ -83,23 +87,3 @@
     align-items: center;
     
 }
-
-/*
-
-.discount {
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    background-color: red;
-    padding: 3px;
-}
-
-.marker {
-    position: absolute;
-    left: 55px;
-    bottom: 20px;
-    background-color: yellow;
-    padding: 3px;
-}
-
-*/
