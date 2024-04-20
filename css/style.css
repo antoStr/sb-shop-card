@@ -6,16 +6,14 @@
 }
 
 .container {
-  height: 100vh;
   width: 80%;
   margin: 0 auto;
-  background-color: tomato;
+  
 }
 
 /* main container */
 
 .card-container {
-    background-color: greenyellow;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -30,8 +28,12 @@
     justify-content: space-between;
     background-position: center;
     margin: 10px;
-    width: 300px;
-    height: 600px;
+    width: 400px;
+    height: 550px;
+}
+
+.card-c {
+    margin-bottom: 50px;
 }
 
 /* feature */
@@ -59,13 +61,60 @@
 }
 
 .first-card {
-  background-image: url(../img/1.webp);
+    background-image: url(../img/1.webp);
+}
+
+.first-card:hover {
+    background-image: url(../img/1b.webp);
+}
+
+.second-card {
+    background-image: url(../img/2.webp);
+}
+
+.second-card:hover {
+    background-image: url(../img/2b.webp);
+}
+
+.third-card {
+    background-image: url(../img/3.webp);
+}
+
+.third-card:hover {
+    background-image: url(../img/3b.webp);
+}
+
+.fourth-card {
+    background-image: url(../img/4.webp);
+}
+
+.fourth-card:hover {
+    background-image: url(../img/4b.webp);
+}
+
+.fifth-card {
+    background-image: url(../img/5.webp);
+}
+
+.fifth-card:hover {
+    background-image: url(../img/5b.webp);
+}
+
+.sixth-card {
+    background-image: url(../img/6.webp);
+}
+
+.sixth-card:hover {
+    background-image: url(../img/6b.webp);
+}
+
+.h-t {
+    transition: 0.35s ease-out;
 }
 
 .like a:hover {
     text-decoration: none;
     cursor: pointer;
-    transition: 0.35s ease-out;
     color: red;
 }
 
@@ -97,7 +146,7 @@
 .title,
 .description,
 .price {
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .title {
